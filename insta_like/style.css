@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image img{
+    width: 400px;
+    height: 550px;
+    position: relative;
+    border-radius: 10px;
+}
+#image{
+    transition: all ease 2s;
+}
+.love{
+    font-size: 60px;
+    background: -webkit-linear-gradient(#e95c40, #d342d1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: .7;
+    transition: all ease-in-out 0.3s;
+}
